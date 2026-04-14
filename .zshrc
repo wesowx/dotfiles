@@ -20,3 +20,6 @@ export FZF_DEFAULT_COMMAND='fd --type file --follow --hidden --exclude .git'
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 
 source <(fzf --zsh)
+
+# opencode
+export PATH=/Users/wesowx/.opencode/bin:$PATH
